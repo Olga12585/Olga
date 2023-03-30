@@ -1,0 +1,28 @@
+div, h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: midnightblue;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+    background: url('https://i.ytimg.com/vi/RpEY1lrPU4Q/maxresdefault.jpg') no-repeat center center;
+}
+  
+.visible {
+visibility: visible;
+opacity: 1;
+transition: opacity 2s linear;
+}
+
+.hidden {
+visibility: hidden;
+opacity: 0;
+transition: visibility 0s 2s, opacity 2s linear;
+}
